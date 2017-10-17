@@ -13,7 +13,7 @@
 				<ul>
 					<li><a href="./main">Main page</a></li>
 					<li><a href="./logedin">Press here to go to a page for auth users.</a></li>
-					<li><a href="https://github.com/SeMax-ua">GitHub Source code</a></li>
+					<li><a href="https://github.com/SeMax-ua/CodeIt-Test/">GitHub Source code</a></li>
 				</ul>
 			</div>
 			<div class="wrapper">
@@ -28,7 +28,7 @@
 				<h3>Info</h3>
 				<ul>
 					<li>This is a simple mvc registration/authorization app.</li>
-					<li>Source code avialable on gitHub <a href="https://github.com/SeMax-ua">@SeMax_ua</a></u>.</span></li>
+					<li>Source code avialable on gitHub <a href="https://github.com/SeMax-ua/CodeIt-Test/">@SeMax_ua</a></u>.</span></li>
 				</ul>
 			</div>
 	</footer>
