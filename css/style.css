@@ -10,10 +10,6 @@ ul, li {
 	padding: 0;
 }
 
-img {
-	width: 100%;
-}
-
 .error-li ol {
 	list-style-type: circle;
 }
@@ -21,62 +17,6 @@ img {
 .head {
 	background: #424b5f;
 	overflow: hidden;
-}
-
-.block_logo {
-	float: left;
-    overflow: hidden;
-    width: 250px;
-    margin: 0 auto;
-    text-align: center;
-	height: 130px;
-	background: #4F5767;
-}
-
-.block_logo, .block_sm h3 {
-	font-size: 20px;
-	margin: 0;
-	padding: 0;
-}
-
-.block_sm {
-	float: right;
-	width: 250px;
-	margin: 10px;
-}
-
-.block_auth {
-	float: right;
-	width: 250px;
-	margin: 10px;
-	text-align: center;
-}
-
-.block_auth h3, h4, p {
-	margin: 0;
-	padding: 0;
-}
-
-.block_auth h4{
-	text-align: left;
-}
-
-.block_auth h3 {
-	font-size: 20px;
-}
-
-.block_auth a {
-	color: #ccc;
-	text-decoration: none;
-}
-
-.block_auth a:hover {
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
-.o2 {
-	margin-top: 0px;
 }
 
 .main {
@@ -189,19 +129,6 @@ footer a:hover {
 .container {
     width: 100%;
     overflow: hidden;
-}
-
-.rightside {
-    float: right;
-    width: 250px;
-    position: relative;
-}
-
-.r_type {
-	display: block;
-    width: 750px;
-    float: left;
-    position: relative;
 }
 
 .btn {
