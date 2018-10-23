@@ -1,12 +1,14 @@
 <form name="reg" class="tablefull"  method="post">
 <?php
-if(count($error) !== 0){
-	$alert = '<div class="alert alert-danger"><h4>Correct following problems:</h4><ul class="error-li">';
-	foreach($error as $text){
-		$alert .= '<li>'.$text.'</li>';
-	}
-	$alert .= '</ul></div>';
-	echo $alert;
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    if(count($error) !== 0){
+        $alert = '<div class="alert alert-danger"><h4>Correct following problems:</h4><ul class="error-li">';
+        foreach($error as $text){
+            $alert .= '<li>'.$text.'</li>';
+        }
+        $alert .= '</ul></div>';
+        echo $alert;
+    }
 }	
 ?>
 	<h3>Register</h3>
